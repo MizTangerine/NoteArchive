@@ -2,3 +2,4 @@
 node_modules
 db_strt.json
 db.json
+apiRoutes_mynotes.js
