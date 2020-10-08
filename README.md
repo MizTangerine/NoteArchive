@@ -1,12 +1,14 @@
 # Note Archive
 
-![languages](https://img.shields.io/github/languages/count/clarissareeve/NoteArchive) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/NoteArchive) ![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-blue.svg)
+![languages](https://img.shields.io/github/languages/count/clarissareeve/NoteArchive) ![top_language](https://img.shields.io/github/languages/top/clarissareeve/NoteArchive) ![w3c](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fsecret-sierra-01809.herokuapp.com%2Fnotes) ![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-blue.svg)
 
 ## Description
 
 A program to take, store, find, and delete notes.
 
-Link to live site: [Note Archive](https://clarissareeve.github.io/NoteArchive/)
+Link to GitHub: [Note Archive](https://github.com/clarissareeve/NoteArchive)
+
+Link to Live Site: [Heroku](https://secret-sierra-01809.herokuapp.com/notes)
 
 ![Landing Page](images/LandingPage.png)
 
@@ -26,7 +28,7 @@ If running locally, run `npm init` to install dependencies. Application is invok
 
 ## Usage
 
-On the [live page] click 'Get Started' to begin. The pencil icon in the upper left hand corner lets you add a new note. The trash can icon next to the title deletes the selected note.
+On the [live page](https://secret-sierra-01809.herokuapp.com/notes) click 'Get Started' to begin. The pencil icon in the upper left hand corner lets you add a new note. The trash can icon next to the title deletes the selected note.
 
 ## License
 
