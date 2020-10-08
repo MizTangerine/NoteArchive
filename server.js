@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const apiRouter = require('./routes/apiRoutes.js')
+const htmlRouter = require('./routes/htmlRoutes.js')
 
 // ***Initialize express app
 const app = express();
@@ -15,25 +16,11 @@ app.use(express.urlencoded({ extended: false }));
 // ***set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
+// *** Creates API routes
 app.use('/api', apiRouter)
 
-// *** Creates API routes
-// app.get("/api/notes", function (req, res) {
-//     console.log('hello')
-//     let db = require('./db/db.json')
-//     res.json(db)
-// })
-
 // *** Creates HTML Routes
-app.get('/notes', function (req, res) {
-    // console.log('html notes')
-    res.sendFile(path.join(__dirname, "/public/notes.html"));
-});
-
-app.get('*', function (req, res) {
-    // console.log('html index')
-    res.sendFile(path.join(__dirname, "/public/index.html"));
-});
+app.use('/', htmlRouter)
 
 // ***Starts Server
 app.listen(PORT, () => console.log(`server started on port ${PORT}`)); 
