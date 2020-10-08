@@ -8,7 +8,7 @@ A program to take, store, find, and delete notes.
 
 Link to GitHub: [Note Archive](https://github.com/clarissareeve/NoteArchive)
 
-Link to Live Site: [Heroku](https://secret-sierra-01809.herokuapp.com/notes)
+Link to Live Site: [Heroku](https://secret-sierra-01809.herokuapp.com/)
 
 ![Landing Page](images/LandingPage.png)
 
@@ -28,7 +28,7 @@ If running locally, run `npm init` to install dependencies. Application is invok
 
 ## Usage
 
-On the [live page](https://secret-sierra-01809.herokuapp.com/notes) click 'Get Started' to begin. The pencil icon in the upper right hand corner lets you add a new note. The trash can icon next to the title deletes the selected note.
+On the [live page](https://secret-sierra-01809.herokuapp.com/) click 'Get Started' to begin. The pencil icon in the upper right hand corner lets you add a new note. The trash can icon next to the title deletes the selected note.
 
 ## License
 
